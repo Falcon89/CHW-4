@@ -9,6 +9,8 @@ public class Main {
     public static void main(String[] args) {
         ScannerInputUAH scannerInputUAH = new ScannerInputUAH();
         scannerInputUAH.scannerInput();
+//        ScannerInputUAH scannerInputUAH = new ScannerInputUAH();
+//        scannerInputUAH.scannerInput();
 
 //        int i = 1;
 //        long tot = 1;
