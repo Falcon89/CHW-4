@@ -27,7 +27,6 @@ public class ProcessInputValue implements Currency {
         }
         System.out.println("You have money in denomination " + list);
     }
-
     /**
      * Create method ProcessInputValue implements Currency
      *
@@ -43,7 +42,7 @@ public class ProcessInputValue implements Currency {
         outputSumValue = inputValue - valueBanknote;
         inputValue = valueBanknote;
         value = outputSumValue / listBanknote;
-        System.out.println("You need to ==> " + value + " bills of " + listBanknote);
-        return inputValue;
+        System.out.println("You need to ==> " + value + (inputValue/listBanknote) + " bills of " + listBanknote);
+        return inputValue%listBanknote;
     }
 }
